@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "taming-bad-python-packages"
+version = "0.1.0"
+description = "This repository contains the source code and data for the blog post \"Taming Bad Python Packages Assessing Python Malware Detectors with a Benchmark Dataset\""
+authors = ["lyvd <vuducly151092@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+notebook = "^6.4.12"
+pandas = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
